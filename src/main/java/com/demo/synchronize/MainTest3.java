@@ -11,7 +11,7 @@ public class MainTest3 {
 
         new Thread(){
             public void run(){
-                //Utils.sendMail2();
+                Utils.makeCall3();
             }
         }.start();
     }
