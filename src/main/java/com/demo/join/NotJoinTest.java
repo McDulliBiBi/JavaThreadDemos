@@ -21,6 +21,9 @@ public class NotJoinTest {
                 }
             }
         };
+        thread1.start();
+        thread2.start();
+
         System.out.println("主线程结束运行");
     }
 }

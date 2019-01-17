@@ -9,13 +9,13 @@ public class MainTest2 {
 
         new Thread(){
             public void run(){
-                System.out.println("Thread 1");
+                //System.out.println("Thread 1");
                 test.sendMail1();
             }
         }.start();
         new Thread(){
             public void run(){
-                System.out.println("Thread 2");
+               // System.out.println("Thread 2");
                 test.makeCall1();
             }
         }.start();
